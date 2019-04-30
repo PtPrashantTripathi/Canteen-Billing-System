@@ -1,0 +1,45 @@
+body {
+	font-family: Arial;
+	color: #211a1a;
+	font-size: 0.9em;
+	height: 100%;
+}
+.login,table {
+	margin: 50px auto;
+	font-family: arial;
+	color: #168DA0;
+	border-radius: 10px;
+	border: 2px solid #168DA0;
+	padding: 12px 40px 25px;
+	margin-top: 70px;
+}
+
+input[type=text],
+input[type=password],select {
+	width: 99%;
+	padding: 12px;
+	margin-top: 8px;
+	border: 1px solid #168DA0;
+	padding-left: 5px;
+	font-size: 16px;
+	font-family: arial;
+}
+
+input[type=submit],a {
+	width: 100%;
+	background-color: #168DA0;
+	color: #fff;
+	padding: 12px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+table th{
+	color: red;
+}
+table td{
+	color: green;
+	width: 300px;
+	padding: 0 0 0 57px;
+}
